@@ -1,0 +1,3 @@
+[submodule "lagrange-ghost"]
+	path = lagrange-ghost
+	url = https://github.com/dybber/lagrange-ghost

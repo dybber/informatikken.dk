@@ -1,0 +1,10 @@
+ghost:
+  #build: ./ghost-image
+  image: ghost:latest
+  container_name: ghost-blog
+  volumes:
+    - ./content:/var/lib/ghost/content
+    - ./lagrange-ghost:/var/lib/ghost/content/themes/lagrange-ghost
+  ports:
+    - 2368:2368
+  restart: always
